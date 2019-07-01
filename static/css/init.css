@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Sarabun;
+    src: url("../fonts/Sarabun-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+:root {
+    --header: #000;
+    --sub-header: #333;
+    --detail: #666;
+    --sub-detail: #999;
+    --footer: #bbb;
+
+    --root: #f9fafc;
+
+    --text-header: 38px;
+    --text-sub-header: 24px;
+    --text-detail: 18px;
+    --text-sub-detail: 16px;
+    --text-footer: 14px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Sarabun;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    background-color: var(--root);
+}
+
+body {
+    width:100%;
+    margin:0;
+}
+
+::selection, ::-webkit-selection {
+    background-color: rgba(0,123,255,.25);
+}

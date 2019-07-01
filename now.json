@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "name": "blog.mystiar",
     "builds": [
         { 
             "src": "server.js", 
@@ -47,5 +48,6 @@
                 "Service-Worker-Allowed": "/"
             }
         }
-    ]
+    ],
+    "regions": ["all"]
 }

@@ -54,6 +54,6 @@ app.prepare().then(() => {
 
   /* Listen */
   server.listen(port, err => {
-    console.log(`> Ready on http://localhost:${port}`)
+    console.log(`> blog.mystiar is ready on http://localhost:${port}! >w<`)
   })
 })
