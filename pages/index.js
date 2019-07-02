@@ -1,36 +1,12 @@
 /* Preact */
 import { h, Fragment } from 'preact'
 
-/* Redux */
-import { connect } from 'react-redux'
-
 /* Components */
 import Navbar from 'components/navbar'
 import FeatureBlog from 'components/featureBlog'
 
 /* CSS */
 import 'css/landing.css'
-
-/* Model */
-const mapStateToProps = (store) => {
-    return {
-        store: {
-
-            
-
-        }
-    }
-}
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        dispatch: {
-
-
-
-        }
-    }
-}
 
 /* Components */
 const Landing = () => {
@@ -46,7 +22,4 @@ const Landing = () => {
     )
 }
 
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(Landing)
+export default Landing

@@ -1,3 +1,16 @@
+a#feature-blog-link {
+    text-decoration: none;
+    color:var(--detail);
+    outline:none;
+}
+
+a#feature-blog-link:hover > section#feature-blog > picture > img#feature-blog-image,
+a#feature-blog-link:focus > section#feature-blog > picture > img#feature-blog-image {
+    transform: translateY(-15px);
+    box-shadow: 8px 8px 35px rgba(0,0,0,.175),
+                15px 15px 70px rgba(0,0,0,.275);
+}
+
 section#feature-blog {
     width:100%;
     height: 420px;
@@ -12,9 +25,12 @@ section#feature-blog {
 img#feature-blog-image {
     position: absolute;
     width: calc(90% - 15px);
+    object-fit: cover;
+    object-position: center;
     border-radius: 15px;
     box-shadow: 5px 5px 20px rgba(0,0,0,.225),
                 8px 8px 35px rgba(0,0,0,.125);
+    transition: transform var(--ease-slow), box-shadow var(--ease-slow);
 }
 
 article#feature-blog-article {
