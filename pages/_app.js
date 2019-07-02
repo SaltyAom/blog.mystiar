@@ -1,6 +1,3 @@
-/* Preact */
-import { h } from 'preact'
-
 /* Redux */
 import { Provider } from 'react-redux'
 import store from 'stores/store'
@@ -13,7 +10,7 @@ import NProgress from "next-nprogress/component"
 
 /* CSS */
 import 'css/init.css'
-import 'static/material-icons/material-icons.css'
+import 'static/assets/material-icons/material-icons.css'
 
 /* Component */
 class MyApp extends App {

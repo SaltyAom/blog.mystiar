@@ -1,14 +1,17 @@
 /* Preact */
-import { h } from 'preact'
+import { h, Fragment } from 'preact'
 
 /* Redux */
 import { connect } from 'react-redux'
+
+/* Components */
+import Navbar from 'components/navbar'
+import FeatureBlog from 'components/featureBlog'
 
 /* CSS */
 import 'css/landing.css'
 
 /* Model */
-/*
 const mapStateToProps = (store) => {
     return {
         store: {
@@ -28,22 +31,22 @@ const mapDispatchToProps = (dispatch) => {
         }
     }
 }
-*/
 
 /* Components */
 const Landing = () => {
     return(
-        <main id="landing">
-            <h1>Mystiar Blog</h1>
-            <p>Hello World! I'm still here...</p>
-        </main>
+        <Fragment>
+            <Navbar />
+            <main id="landing">
+
+                <FeatureBlog />
+
+            </main>
+        </Fragment>
     )
 }
 
-/*
 export default connect(
     mapStateToProps,
     mapDispatchToProps
 )(Landing)
-*/
-export default Landing

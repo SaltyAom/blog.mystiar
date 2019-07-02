@@ -12,7 +12,7 @@ const reducers = (state, action) => {
                 ...state
             }
 
-    }
+        }
 }
 
 const store = createStore(reducers, initState);

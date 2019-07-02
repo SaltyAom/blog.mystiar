@@ -5,29 +5,47 @@
 }
 
 :root {
+    /* Color */
     --header: #000;
     --sub-header: #333;
     --detail: #666;
     --sub-detail: #999;
     --footer: #bbb;
 
-    --root: #f9fafc;
+    --root-1: #fff;
+    --root-2: #eee;
+    --root-3: #ddd;
 
+    --link: #007aff;
+    --line: #ceced2;
+
+    --base: #fff;
+    --alter-base: #000;
+
+    --background: #f5f6fb;
+
+    /* Size */
     --text-header: 38px;
     --text-sub-header: 24px;
     --text-detail: 18px;
     --text-sub-detail: 16px;
     --text-footer: 14px;
+
+    --border: 1px solid var(--line);
+
+    --ease-fast: .2s ease-out;
+    --ease-medium: .25s ease-out;
+    --ease-slow: .3s ease-out;
 }
 
 * {
     box-sizing: border-box;
-    font-family: Sarabun;
+    font-family: Sarabun, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html, body {
     scroll-behavior: smooth;
-    background-color: var(--root);
+    background-color: var(--background);
 }
 
 body {
