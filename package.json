@@ -16,7 +16,7 @@
     "dexie": "^2.0.4",
     "express": "^4.17.1",
     "module-alias": "^2.2.0",
-    "next": "^8.1.1-canary.63",
+    "next": "^11.1.0",
     "next-fonts": "^0.17.0",
     "next-nprogress": "^1.4.0",
     "preact": "^10.0.0-beta.3",
